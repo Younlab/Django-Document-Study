@@ -8,4 +8,4 @@ class Person(models.Model):
     )
 
     name = models.CharField(max_length=60)
-    shirt_size = models.CharField(max_length=1, choices=SHIRT_SIZES)
+    shirt_size = models.CharField('셔츠 사이즈', max_length=1, choices=SHIRT_SIZES)
