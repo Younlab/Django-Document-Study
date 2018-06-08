@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'models.fields.apps.FieldsConfig',
+    'models.forignkey.apps.ForignkeyConfig',
 
     'django.contrib.admin',
     'django.contrib.auth',
