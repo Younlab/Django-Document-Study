@@ -14,3 +14,8 @@ class FacebookUser(models.Model):
     def __str__(self):
         return self.name
 
+    def show_frends(self):
+        print('-',self.name ,'의 친구 목록')
+        result = self.frends.all()
+        for i in result:
+            print('-', i)
