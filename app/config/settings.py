@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'inheritance.multi_table.apps.MultiTableConfig',
     'inheritance.abstract_base_classes.apps.AbstractBaseClassesConfig',
     'models.fields.apps.FieldsConfig',
     'models.forignkey.apps.ForignkeyConfig',
