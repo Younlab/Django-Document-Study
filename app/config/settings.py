@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'weblog.apps.WeblogConfig',
     'inheritance.proxy.apps.ProxyConfig',
     'inheritance.multi_table.apps.MultiTableConfig',
     'inheritance.abstract_base_classes.apps.AbstractBaseClassesConfig',
@@ -43,6 +44,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'django_extensions',
 ]
 
 MIDDLEWARE = [
